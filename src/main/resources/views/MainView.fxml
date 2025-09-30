@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="399.0" prefWidth="261.0" spacing="20.0" style="-fx-background-color: lightgrey;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/24.0.1" fx:controller="org.example.extendedcalculator.controllers.MainViewController">
+<VBox alignment="CENTER" prefHeight="399.0" prefWidth="263.0" spacing="20.0" style="-fx-background-color: lightgrey;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/24.0.1" fx:controller="org.example.extendedcalculator.controllers.MainViewController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -24,7 +24,7 @@
       </AnchorPane>
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
          <children>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="C">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -32,7 +32,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="C">
+            <Button layoutX="10.0" layoutY="10.0" maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="±">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -40,7 +40,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button layoutX="49.0" layoutY="10.0" mnemonicParsing="false" text="C">
+            <Button layoutX="49.0" layoutY="10.0" maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="\%">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -48,7 +48,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button layoutX="88.0" layoutY="10.0" mnemonicParsing="false" text="C">
+            <Button layoutX="88.0" layoutY="10.0" maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="/">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -63,7 +63,7 @@
       </HBox>
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
          <children>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="7">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -71,7 +71,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="8">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -79,7 +79,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="9">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -87,43 +87,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="C">
-               <padding>
-                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
-               </padding>
-               <HBox.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-            </Button>
-         </children>
-      </HBox>
-      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
-         <children>
-            <Button mnemonicParsing="false" text="C">
-               <padding>
-                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
-               </padding>
-               <HBox.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="C">
-               <padding>
-                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
-               </padding>
-               <HBox.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="C">
-               <padding>
-                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
-               </padding>
-               <HBox.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </HBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="X">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -135,7 +99,7 @@
       </HBox>
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
          <children>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="4">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -143,7 +107,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="5">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -151,7 +115,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="6">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -159,7 +123,43 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="-">
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="1">
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="2">
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="3">
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="+">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
@@ -171,28 +171,28 @@
       </HBox>
       <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
          <children>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="0">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
                <HBox.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  <Insets left="5.0" right="5.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text=",">
                <padding>
                   <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
                </padding>
                <HBox.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  <Insets left="5.0" right="5.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" text="C">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="=">
                <padding>
-                  <Insets bottom="7.0" left="40.0" right="40.0" top="7.0" />
+                  <Insets bottom="7.0" left="44.0" right="44.0" top="7.0" />
                </padding>
                <HBox.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  <Insets left="5.0" right="5.0" />
                </HBox.margin>
             </Button>
          </children>

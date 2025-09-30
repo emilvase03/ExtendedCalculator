@@ -187,7 +187,7 @@
                   <Insets left="5.0" right="5.0" />
                </HBox.margin>
             </Button>
-            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="=">
+            <Button maxWidth="42.0" mnemonicParsing="false" prefWidth="42.0" text="=" textOverrun="CLIP">
                <padding>
                   <Insets bottom="7.0" left="44.0" right="44.0" top="7.0" />
                </padding>

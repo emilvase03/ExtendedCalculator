@@ -7,13 +7,14 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class CalculatorApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/views/MainView.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Extended Calculator");
+        FXMLLoader fxmlLoader = new FXMLLoader(CalculatorApplication.class.getResource("/views/MainView.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 245, 400);
         stage.setScene(scene);
+        stage.setTitle("Extended Calculator");
+        stage.setResizable(false);
         stage.show();
     }
 }
